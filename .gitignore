@@ -1,0 +1,7 @@
+# Backup Vim files.
+*~
+# Temporaly Vim files.
+*.swp
+
+# Generated configure header file.
+src/sfc/config.h
