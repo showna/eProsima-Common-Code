@@ -1,5 +1,5 @@
-#ifndef _TRANSPORTPLUGINCOMMON_H_
-#define _TRANSPORTPLUGINCOMMON_H_
+#ifndef _EPROSIMA_C_DDS_TRANSPORT_TRANSPORTPLUGINCOMMON_H_
+#define _EPROSIMA_C_DDS_TRANSPORT_TRANSPORTPLUGINCOMMON_H_
 
 #include <stdio.h>
 #include "transport/transport_interface.h"
@@ -107,4 +107,4 @@ void log_init(const char *fileName);
 }
 #endif // __cplusplus
 
-#endif // _TRANSPORTPLUGINCOMMON_H_
+#endif // _EPROSIMA_C_DDS_TRANSPORT_TRANSPORTPLUGINCOMMON_H_

@@ -1,5 +1,5 @@
-#include "common/transportPluginCommon.h"
-#include "eProsima_c/eProsimaDL.h"
+#include "dds/transport/transportPluginCommon.h"
+#include "sys/eProsimaDL.h"
 #include "eProsima_c/eProsimaMacros.h"
 
 #include "dds_c/dds_c_string.h"
