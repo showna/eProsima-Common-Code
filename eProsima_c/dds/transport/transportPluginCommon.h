@@ -1,9 +1,11 @@
 #ifndef _EPROSIMA_C_DDS_TRANSPORT_TRANSPORTPLUGINCOMMON_H_
 #define _EPROSIMA_C_DDS_TRANSPORT_TRANSPORTPLUGINCOMMON_H_
 
+#include "eProsima_c/config.h"
+
 #include <stdio.h>
-#include "transport/transport_interface.h"
-#include "ndds/ndds_transport_c.h"
+#include <transport/transport_interface.h>
+#include <ndds/ndds_transport_c.h>
 
 #ifdef __cplusplus
 extern "C"

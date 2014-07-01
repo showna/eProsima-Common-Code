@@ -1,10 +1,10 @@
-#include "dds/transport/transportPluginCommon.h"
-#include "sys/eProsimaDL.h"
-#include "eProsima_c/eProsimaMacros.h"
+#include "transportPluginCommon.h"
+#include "../../sys/eProsimaDL.h"
+#include "../../macros/snprintf.h"
 
-#include "dds_c/dds_c_string.h"
-#include "dds_c/dds_c_infrastructure.h"
-#include "osapi/osapi_heap.h"
+#include <dds_c/dds_c_string.h>
+#include <dds_c/dds_c_infrastructure.h>
+#include <osapi/osapi_heap.h>
 
 #include <stdio.h>
 #include <stdarg.h>
@@ -765,7 +765,7 @@ void getSubtransportProperties(const struct DDS_PropertyQosPolicy *transportProp
 
 			if(newProperty != NULL)
 			{
-				newProperty->name = DDS_String_dup((char*)((int)auxProperty->name + subtransportNameLength));
+				newProperty->name = DDS_String_dup(auxProperty->name + subtransportNameLength);
 				newProperty->value = DDS_String_dup(auxProperty->value);
 			}
 		}
