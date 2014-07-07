@@ -2,6 +2,33 @@
 *~
 # Temporaly Vim files.
 *.swp
+# Vim session files.
+*.vim
+# YouCompleteMe temporaly files.
+.ycm_extra_conf.pyc
 
-# Generated configure header file.
-src/sfc/config.h
+# Build autoconf files
+Makefile
+Makefile.in
+.deps/
+.libs/
+*.la
+*.lo
+*.o
+aclocal.m4
+autom4te.cache/
+config.guess
+config.log
+config.status
+config.sub
+configure
+compile
+depcomp
+install-sh
+libtool
+ltmain.sh
+m4/lt*.m4
+m4/libtool.m4
+missing
+.dirstamp
+stamp-h1
