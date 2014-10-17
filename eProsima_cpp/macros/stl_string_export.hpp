@@ -8,6 +8,10 @@
 
 #else
 
+#ifdef STL_STRING_EXPORT
+#undef STL_STRING_EXPORT
+#endif
+
 #define STL_STRING_EXPORT(dllexport)
 
 #endif //_WIN32
